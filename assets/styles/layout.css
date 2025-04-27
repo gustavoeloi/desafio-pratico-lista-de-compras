@@ -1,0 +1,66 @@
+main {
+  display: flex;
+  flex-direction: column;
+
+  .quicklist-icon {
+    margin-block: 1.625rem 4rem;
+    width: 7.5rem;
+    align-self: center;
+  }
+
+  .main-content {
+    header {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2.5rem;
+
+      span {
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        font: var(--title);
+        color: var(--content-primary);
+        margin-bottom: 2.75rem;
+      }
+
+      .back {
+        color: var(--color-danger);
+        font: var(--font-link);
+      }
+
+      form {
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+
+        input {
+
+          flex: 3;
+          color: var(--content-tertiary);
+
+          &:hover, &:focus {
+            border: 2px solid var(--border-hover);
+          }
+
+          &:focus {
+            border: 2px solid var(--color-brand);
+          }
+        }
+
+        button {
+          flex: 1;
+          color: var(--always-white);
+          background: var(--color-brand);
+          cursor: pointer;
+
+          &:hover {
+            background-color: var(--color-brand-hover);
+          }
+        }
+      }
+    }
+
+
+  }
+}

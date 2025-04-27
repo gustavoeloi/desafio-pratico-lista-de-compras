@@ -54,3 +54,19 @@ input, button {
   outline: none;
   font: var(--paragraph);
 }
+
+li {
+  list-style-type: none;
+}
+
+.underline {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
+
+.show-alert {
+  display: flex;
+}
